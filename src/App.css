@@ -1,0 +1,19 @@
+.border-box{
+    border: 1px;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    max-width: 85%;
+}
+
+h1{
+    background-color: white;
+}
+
+.bg{
+    background-color: aquamarine;
+    background-size: cover;
+}
