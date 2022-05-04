@@ -1,17 +1,27 @@
-
+.likes{
+    float: right;
+}
+.active-like{
+    background-color: green;
+    border-radius: 8px;
+}
+.active-dislike{
+    background-color: red;
+    border-radius: 8px;
+}
+.button{
+    border-radius: 8px;
+}
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1;
-    background-color: #ffffff;
-    }
-    .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 1px;
-    font-size: 30px;
-    text-align: left;
-    }
-    
-    .btn{
-        float: right;
-    }
+display: grid;
+grid-template-columns: 1;
+background-color: #ffffff;
+}
+.grid-item {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 1px;
+font-size: 30px;
+text-align: left;
+border-bottom: 1em;
+}
